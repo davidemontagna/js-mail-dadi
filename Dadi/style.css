@@ -19,6 +19,18 @@ body{
     background-color: rgb(195, 104, 57);
 }
 
-#box2{
+#box2, .btn{
     background-color: rgb(134, 52, 10);    
+}
+
+.btn{
+    color: rgb(232, 208, 179);
+    transition: 0.5s;
+    border: 2px solid rgb(94, 136, 125);
+}
+
+.btn:hover{
+    
+    color: rgb(232, 208, 179);
+    transform: scale(1.2);
 }
